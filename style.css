@@ -38,3 +38,30 @@ h4{
     width: 25%;
   }
 }
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 260px;
+  top: 100%;
+  left: 50%;
+  margin-left: -130px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.footer{
+  text-align: center;
+}
